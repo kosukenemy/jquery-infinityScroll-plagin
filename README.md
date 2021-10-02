@@ -58,6 +58,36 @@ $('#element').infinityScroll(config)
 </div>
 ````
 
+#### complate 
+
+Data treated as infinite scroll is read and displayed by Ajax under the HTML tag specified in `config`.
+
+- ja
+無限スクロールとして扱うデータは`config`で指定したHTMLタグの下にAjaxで読み込まれて表示されます.
+
+
+```HTML
+<head>
+
+    <!-- read infinityScroll.css -->
+    <link rel="stylesheet" href="dist/infinityScroll.css">
+</head>
+<body>
+    <div id="element">
+        <!-- render load.html -->
+    </div>
+
+    <!-- read JQuery -->
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+    <!-- infinityScroll.min.js -->
+    <script src="dist/infinityScroll.min.js"></script>
+</body>
+```
+
 ### license
 MIT License
 
