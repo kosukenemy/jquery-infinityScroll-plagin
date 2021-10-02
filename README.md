@@ -88,6 +88,16 @@ Data treated as infinite scroll is read and displayed by Ajax under the HTML tag
     </script>
     <!-- infinityScroll.min.js -->
     <script src="dist/infinityScroll.min.js"></script>
+    <script>
+        const config = {
+                type : "html",
+                data : "load.html",
+                loadListClass : "is-load-list",
+                renderInit : 2,
+                scrollEndMessage : "read all contents!",
+            }
+        $('#element').infinityScroll(config)
+    </script>
 </body>
 ```
 
