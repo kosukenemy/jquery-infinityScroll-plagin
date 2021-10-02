@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+body {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
 body img {
   width: 100%;
 }
@@ -14,6 +19,27 @@ body li {
 body #element {
   width: 90%;
   margin: 0 auto;
+}
+
+body .wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+  top: 0;
+  z-index: 3;
+  padding: 0.3rem 0;
+}
+
+body .wrapper .demo {
+  display: table;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.1rem 0.3rem;
 }
 
 body .is-load-list {

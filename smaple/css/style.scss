@@ -12,6 +12,8 @@ $base : 1280;
 }
 
 body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
     img {
         width: 100%;
     }
@@ -24,6 +26,26 @@ body {
     #element {
         width: 90%;
         margin: 0 auto;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0 auto;
+        background: #fff;
+        position: sticky;
+        text-align: center;
+        top: 0;
+        z-index: 3;
+        padding: 0.3rem 0;
+
+        .demo {
+            display: table;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            margin: 0 auto;
+            padding: 0.1rem 0.3rem;
+        }
     }
     .is-load-list {
         width: get_vw(550);
