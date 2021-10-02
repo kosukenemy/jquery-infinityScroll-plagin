@@ -35,8 +35,8 @@ const config = {
         type : "html", 
         data : "load.html", // infinite scrolling Contents HTML
         loadListClass : "is-load-list", // infinite scrolling Contents HTML ClassList
-        renderInit : 2, //　initial value　:2　　 It works even if false.　 List to display first
-        scrollEndMessage : "read all contents!", // It works even if false. Display a message after loading all content.
+        renderInit : 2, //　initial value　:2　　 It works even if not write.　 List to display first
+        scrollEndMessage : "read all contents!", // It works even if not write. Display a message after loading all content.
     }
 
 // infinite scrolling Contents Show ParentNode
