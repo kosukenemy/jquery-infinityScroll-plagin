@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body img {
+  width: 100%;
+}
+
+body li {
+  list-style: none;
+}
+
+body #element {
+  width: 90%;
+  margin: 0 auto;
+}
+
+body .is-load-list {
+  width: 42.96875vw;
+  margin: 0 auto;
+  padding: 1rem 0;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#end-message {
+  text-align: center;
+  width: 54.6875vw;
+  margin: 0 auto;
+  color: #333;
+}
+/*# sourceMappingURL=style.css.map */

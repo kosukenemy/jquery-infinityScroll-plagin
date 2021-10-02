@@ -1,0 +1,46 @@
+
+$base : 1280;
+@function get_vw($size, $viewport:$base ){
+    $rate: 100 / $viewport;
+    @return $rate * $size * 1vw;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    img {
+        width: 100%;
+    }
+    
+    li {
+        list-style: none;
+    }
+
+
+    #element {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .is-load-list {
+        width: get_vw(550);
+        margin: 0 auto;
+        padding: 1rem 0;
+        transform: scale(1);
+    }
+}
+
+
+// app
+
+
+
+#end-message {
+    text-align: center;
+    width: get_vw(700);
+    margin: 0 auto;
+    color: #333;
+}
