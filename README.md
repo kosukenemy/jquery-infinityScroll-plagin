@@ -1,6 +1,9 @@
 
 # JQuery Infinity Scroll (plagin)
 
+### Demo Page
+https://kosukenemy.github.io/jquery-infinityScroll-plagin/
+
 ### How it works
 This plugin is a JQuery plugin that enables infinite scrolling.
 Download `infinityScroll.css` and `infinityScroll.min.js` in the `dist directory` of this repository and load them into your HTML file.
