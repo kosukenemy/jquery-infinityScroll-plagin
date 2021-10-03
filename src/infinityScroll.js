@@ -17,7 +17,6 @@
             .fail( function(err) {
                 console.error(err)
             })
-            // console.log('ajax await...')
         }
 
 

@@ -11,15 +11,25 @@ $base : 1280;
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     position: relative;
     font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
     img {
         width: 100%;
     }
     
     li {
         list-style: none;
+    }
+    p {
+        font-weight: 600;
+        letter-spacing: 0.02rem;
+        text-align: center;
     }
 
 
@@ -38,13 +48,12 @@ body {
         z-index: 3;
         padding: 0.3rem 0;
 
-        .demo {
-            display: table;
-            background: #333;
-            color: #fff;
-            text-align: center;
-            margin: 0 auto;
-            padding: 0.1rem 0.3rem;
+        &-title {
+            font-size: 5rem;
+            letter-spacing: 0.2rem;
+        }
+        &-sub-title {
+            font-size: 2rem;
         }
     }
     .is-load-list {

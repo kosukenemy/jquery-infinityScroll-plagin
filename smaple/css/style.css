@@ -3,9 +3,14 @@
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   position: relative;
   font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
 }
 
 body img {
@@ -14,6 +19,12 @@ body img {
 
 body li {
   list-style: none;
+}
+
+body p {
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+  text-align: center;
 }
 
 body #element {
@@ -33,13 +44,13 @@ body .wrapper {
   padding: 0.3rem 0;
 }
 
-body .wrapper .demo {
-  display: table;
-  background: #333;
-  color: #fff;
-  text-align: center;
-  margin: 0 auto;
-  padding: 0.1rem 0.3rem;
+body .wrapper-title {
+  font-size: 5rem;
+  letter-spacing: 0.2rem;
+}
+
+body .wrapper-sub-title {
+  font-size: 2rem;
 }
 
 body .is-load-list {

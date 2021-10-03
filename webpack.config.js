@@ -1,6 +1,6 @@
 module.exports = {
     mode: 'production',
-    entry: './src/index.js',
+    entry: './src/infinityScroll.js',
     output: {
         //  出力ファイルのディレクトリ名
         path: `${__dirname}/dist`,

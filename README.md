@@ -1,5 +1,5 @@
 
-# JQuery Infinity Scroll (plagin)
+# infinityScroll.js - JQuery Infinity Scroll plagin
 
 ### Demo Page
 https://kosukenemy.github.io/jquery-infinityScroll-plagin/

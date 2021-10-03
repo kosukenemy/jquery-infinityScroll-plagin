@@ -2,7 +2,7 @@
   "name": "jquery-infinityscroll-plagin",
   "version": "1.0.0",
   "description": "Jquery-infinityscroll-plagin",
-  "main": "index.js",
+  "main": "infinityScroll.js",
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w",
