@@ -30,7 +30,7 @@ body p {
 
 body #element {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 100px;
 }
 
 body .wrapper {
@@ -50,16 +50,34 @@ body .wrapper-title {
   letter-spacing: 0.2rem;
 }
 
+@media (max-width: 768px) {
+  body .wrapper-title {
+    font-size: 3.4rem;
+  }
+}
+
 body .wrapper-sub-title {
   font-size: 2rem;
 }
 
+@media (max-width: 768px) {
+  body .wrapper-sub-title {
+    font-size: 1.4rem;
+  }
+}
+
 body .is-load-list {
   width: 42.96875vw;
+  max-width: 400px;
   margin: 0 auto;
   padding: 1rem 0;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+}
+
+@media (max-width: 768px) {
+  body .is-load-list {
+    width: 90%;
+    max-width: auto;
+  }
 }
 
 #end-message {

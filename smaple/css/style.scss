@@ -6,6 +6,14 @@ $base : 1280;
 }
 
 
+
+@mixin sp {
+    @media (max-width:768px) {
+        @content;
+    }
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +44,7 @@ body {
 
     #element {
         width: 90%;
-        margin: 0 auto;
+        margin: 0 auto 100px;
     }
 
     .wrapper {
@@ -52,16 +60,26 @@ body {
         &-title {
             font-size: 5rem;
             letter-spacing: 0.2rem;
+            @include sp(){
+                font-size: 3.4rem;
+            }
         }
         &-sub-title {
             font-size: 2rem;
+            @include sp(){
+                font-size: 1.4rem;
+            }
         }
     }
     .is-load-list {
         width: get_vw(550);
+        max-width: 400px;
         margin: 0 auto;
         padding: 1rem 0;
-        transform: scale(1);
+        @include sp(){
+            width: 90%;
+            max-width: auto;
+        }
     }
 }
 
