@@ -1,5 +1,5 @@
 
-/* jQuery infinityScroll plagin by kosukenemy */
+/* infinityScroll.js by kosukenemy */
 
 (($) => {
     $.fn.infinityScroll = function(setting) {

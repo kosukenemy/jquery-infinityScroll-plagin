@@ -17,7 +17,7 @@ html {
 
 body {
     position: relative;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     line-height: 1.5;
     img {
         width: 100%;
@@ -28,6 +28,7 @@ body {
     }
     p {
         font-weight: 600;
+        font-size: 2rem;
         letter-spacing: 0.02rem;
         text-align: center;
     }
@@ -46,7 +47,7 @@ body {
         text-align: center;
         top: 0;
         z-index: 3;
-        padding: 0.3rem 0;
+        padding: 0.8rem 0;
 
         &-title {
             font-size: 5rem;
@@ -74,4 +75,5 @@ body {
     width: get_vw(700);
     margin: 0 auto;
     color: #333;
+    font-size: 2rem;
 }
